@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(66, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.triangle{
+    position: relative;
+    background-color: rgb(133, 64, 197);
+    border-right: 400px solid rgb(48, 212, 199);
+    border-top: 500px solid transparent;
+    box-shadow: 0px 0px 100px black;
+
+    
+}
+
+.singup{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: -500px;
+    width: 400px;
+    height: 500px;
+
+}
+.sing{
+    display:grid;
+    justify-content: center;
+    font-family:cursive;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Courier New;
+    padding: 10px;
+    color: rgb(182, 136, 38);
+}
+input[type="email"]{
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 3px solid rgb(182, 136, 38);
+    border-radius: 20px;
+    background: none;
+}
+
+input[type="password"]{
+    position: absolute;
+    top: 35%;
+    left: 7.5%;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 3px solid rgb(182, 136, 38);
+    border-radius: 20px;
+    background: none;
+}
+input[type="button"]{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color:  rgb(182, 136, 38);
+    border: none;
+    transition: 1s;
+}
+input[type="button"]:hover{
+    padding: 20px;
+    background-color:  rgb(161, 110, 0);
+    font-size: 25px;
+
+
+}
+p{
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    cursor: pointer;
+
+}
+#facebook{
+    position: absolute;
+    top: 53.5%;
+    left: 10%;
+    color: white;
+    text-transform: capitalize;
+    background-color: #0165e1;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 144px;
+    height: 40px;
+    transition: 1s;
+}
+#facebook:hover{
+    background-color: #09458f;
+}
+img[src="facebook.ico"]{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+img[src="Instagram.ico"]{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+span{
+    position: absolute;
+    right:3%;
+    top: 15%;
+}
+#instagram{
+    position: absolute;
+    top: 53.5%;
+    right: 10%;
+    color: white;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg,#405de6,
+     #5851db, #833ab4, #c13584, #e1306c, 
+     #fd1d1d );
+    text-decoration: none;
+    border-radius: 10px;
+    width: 145px;
+    height: 40px;
+    transition: 1s;
+}
+#instagram:hover{
+    background-image: linear-gradient(45deg,#1633c5,
+    #2c24b3, #68169e, #af166d, #b61a4e, 
+    #e90b0b );
+}
+#s1{
+    position: absolute;
+    top: 55%;
+    left: 46.3%;
+    font-family: Trebuchet;
+    font-size: 20px;
+    text-transform: uppercase;
+}
